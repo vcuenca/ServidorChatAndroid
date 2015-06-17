@@ -5,6 +5,7 @@ public class Main {
 	public static final int OK = 0;
 	
 	public static void main(String[] args) {
+		//Hola
 		//Iniciamos la base da datos
 		DataBase.startDB("src/main/hibernate.cfg.xml");
 		
