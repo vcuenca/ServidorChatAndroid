@@ -163,13 +163,15 @@ public class ClientThread extends Thread{
 	//PROBADA
 	private void insertarMensaje (){
 		try {
-				Mensaje message = (Mensaje)in.readObject();
-				message.setFecha("Sin fecha");
-				System.out.println("Mensaje recibido");
-				System.out.println(message.getMessage());
-				DataBase.storeObject(message);
-				//sendPushNotification(message.get());
-
+			Mensaje message = (Mensaje)in.readObject();
+			System.out.println("Mensaje recibido");
+			System.out.println(message.getFrom());
+			System.out.println(message.getReceiver());
+			System.out.println(message.getMessage());
+			System.out.println(message.getFecha());
+			DataBase.storeObject(message);
+			//el parametro es el contacto al cual va
+			sendPushNotification("ivan");
 		} catch (ClassNotFoundException cne) {
 			// TODO Auto-generated catch block
 			cne.printStackTrace();
@@ -181,14 +183,15 @@ public class ClientThread extends Thread{
 	private void sendPushNotification(String receiver){
 		//Consultamos de la BD el cloudID
 		//ResultSet rs = Main.executeSelect("SELECT CLOUDID FROM USUARIO_IP WHERE USUARIO = '" + receiver + "';");
-		List<Object> usuarios = DataBase.executeQuery("SELECT CLOUDID FROM USUARIO_IP WHERE USUARIO = '" + receiver + "';");
-
+		List<Object> usuarios = DataBase.executeQuery("select gcm from User WHERE userID = '" + receiver + "'");
+		System.out.println(usuarios.size());
+		System.out.println("GCM: " + usuarios.get(0));
 		
-		String cloudID = null;
+		String cloudID = "";
 		
 		if (!usuarios.isEmpty()){
 			//Si existe el cloudID para el destinatario, mandamos la notificacion.
-			cloudID = ((User)usuarios.get(0)).getGcm();
+			cloudID = (String)usuarios.get(0);
 			//Enviamos la notificacion
 			Sender sender = new Sender(Properties.GOOGLE_SERVER_KEY);
 			String textMessage = "NP";

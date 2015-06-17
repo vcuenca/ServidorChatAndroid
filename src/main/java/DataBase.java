@@ -28,7 +28,8 @@ public class DataBase {
 	
 	public static void storeObject(Object obj){
 		session.persist(obj);//persisting the object  
-	    t.commit();//transaction is committed 
+	    t.commit();//transaction is committed
+
 	}
 	
 	public static List<Object> executeQuery(String query){
