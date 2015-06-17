@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23-feb-2015 17:37:33 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="main.java.Mensaje" table="mensaje">
+        <id name="from" type="java.lang.String">
+            <column name="origen" />
+            <generator class="assigned" />
+        </id>
+        <property name="receiver" type="java.lang.String">
+            <column name="destino" />
+        </property>
+        <property name="message" type="java.lang.String">
+            <column name="texto" />
+        </property>
+        <property name="fecha" type="java.lang.String">
+            <column name="fecha" />
+        </property>
+    </class>
+</hibernate-mapping>
