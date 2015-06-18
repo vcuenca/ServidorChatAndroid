@@ -48,6 +48,8 @@ public class ClientThread extends Thread{
 				}else if (mode == Properties.SEARCH_CONTACT){
 					System.out.println("Buscando contactos");
 					sendContactsResult();
+				}else if (mode == Properties.RECEIVE_CONFIRMATION){
+					receiveConfirmation();
 				}
 			}
 		} catch (ClassNotFoundException cne) {
@@ -197,8 +199,8 @@ public class ClientThread extends Thread{
 			String textMessage = "NP";
 			//2419200 timeToLive es el m�ximo de tiempo = 4 semanas
 			Message message = new Message.Builder().timeToLive(2419200).delayWhileIdle(true).addData(Properties.MESSAGE_KEY, textMessage).build();
-			
-			//Result r = sender.send(message, cloudID, 1); 
+
+			//Result r = sender.send(message, cloudID, 1);
 			//Para obtener el resultado del envio
 			try {
 				sender.send(message, cloudID, 1);
@@ -229,20 +231,18 @@ public class ClientThread extends Thread{
 		
 		for (int i = 0; i < messages.size(); i++){
 			Mensaje m = (Mensaje)messages.get(i); 
-			
-			from = m.getFrom();
-			message = m.getMessage();
+
 			 
-			if (hConversations.get(from) == null){
-				 Conversation c = new Conversation(from, new ArrayList<String>());
-				 c.addMessage(message);
-				 hConversations.put(from, c);
+			if (hConversations.get(m.getFrom()) == null){
+				 Conversation c = new Conversation(m.getFrom(), new ArrayList<Mensaje>());
+				 c.addMessage(m);
+				 hConversations.put(m.getFrom(), c);
 			}else{
-				 Conversation c = hConversations.get(from);
-				 c.addMessage(message);
+				 Conversation c = hConversations.get(m.getFrom());
+				 c.addMessage(m);
 			}
 				 
-			 System.out.println(from + ":" + message);
+			 System.out.println(m.getFrom() + ":" + m.getMessage());
 		}
 		
 		System.out.println("Numero de elementos: " + hConversations.size());
@@ -258,11 +258,10 @@ public class ClientThread extends Thread{
 		    Map.Entry pairs = (Map.Entry)it.next();
 		    Conversation c = (Conversation)pairs.getValue();
 		    
-		    for (String s: c.getMessages()){
-		    	System.out.println("Mensaje: " + s);
+		    for (Mensaje s: c.getMessages()){
+		    	System.out.println("ID: " + s.getId());
 		    }
-		    
-		    
+
 		    try {
 				out.writeObject(c);
 			} catch (IOException e) {
@@ -273,6 +272,18 @@ public class ClientThread extends Thread{
 		}
 		
 	}
-	
+
+	public void receiveConfirmation(){
+		try {
+			Integer maxId = (Integer)in.readObject();
+			System.out.println("Eliminar mensajes < a " + maxId);
+
+			DataBase.executeUpdate("UPDATE Mensaje SET recibido=1 WHERE id <= " +  maxId + " AND recibido = 0");
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 	
 }

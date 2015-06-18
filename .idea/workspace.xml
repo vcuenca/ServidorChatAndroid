@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fef4457d-90de-4a44-83bf-b9e6aef02d03" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/ClientThread.class" afterPath="$PROJECT_DIR$/bin/main/java/ClientThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/DataBase.class" afterPath="$PROJECT_DIR$/bin/main/java/DataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/Main.class" afterPath="$PROJECT_DIR$/bin/main/java/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/Mensaje.class" afterPath="$PROJECT_DIR$/bin/main/java/Mensaje.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ClientThread.java" afterPath="$PROJECT_DIR$/src/main/java/ClientThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Conversation.java" afterPath="$PROJECT_DIR$/src/main/java/Conversation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/hibernate/Mensaje.hbm.xml" afterPath="$PROJECT_DIR$/bin/main/hibernate/Mensaje.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DataBase.java" afterPath="$PROJECT_DIR$/src/main/java/DataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Properties.java" afterPath="$PROJECT_DIR$/src/main/java/Properties.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ServidorChatAndroid.iws" />
@@ -36,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ClientThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="266" column="33" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="33" />
+              <caret line="280" column="25" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -46,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Properties.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="91" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="91" />
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -65,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5943396">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.72075474">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,33 +133,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Mensaje.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-              </folding>
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,16 +167,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Database.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadServidor.java" />
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Properties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/k3rnel/androidchat/JavaObjects/Conversation.java" />
         <option value="$PROJECT_DIR$/src/main/hibernate/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/hibernate/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mensaje.java" />
         <option value="$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ClientThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/Conversation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Properties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataBase.java" />
       </list>
     </option>
   </component>
@@ -248,9 +221,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,6 +301,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -644,7 +617,8 @@
       <workItem from="1434576045564" duration="272000" />
       <workItem from="1434577053034" duration="624000" />
       <workItem from="1434617460776" duration="1601000" />
-      <workItem from="1434619972423" duration="368000" />
+      <workItem from="1434619972423" duration="1906000" />
+      <workItem from="1434637131537" duration="3788000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1434555952180</created>
@@ -670,15 +644,27 @@
       <option name="project" value="LOCAL" />
       <updated>1434618449103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aaaa">
+      <created>1434622861790</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1434622861790</updated>
+    </task>
+    <task id="LOCAL-00006" summary="aaaa">
+      <created>1434626226885</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1434626226885</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21812000" />
+    <option name="totallyTimeSpent" value="27138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -689,7 +675,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -777,32 +763,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,28 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadServidor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/hibernate/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="91" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -1179,57 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mensaje.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1238,18 +1130,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClientThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mensaje.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="266" column="33" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="33" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5943396">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadServidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="25" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72075474">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

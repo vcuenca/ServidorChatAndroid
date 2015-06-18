@@ -6,9 +6,9 @@ import java.util.ArrayList;
 public class Conversation implements Serializable{
 
     private String user;
-    private ArrayList<String> messages;
+    private ArrayList<Mensaje> messages;
 
-    public Conversation(String user, ArrayList<String> messages){
+    public Conversation(String user, ArrayList<Mensaje> messages){
         this.messages = messages;
         this.user = user;
     }
@@ -17,11 +17,11 @@ public class Conversation implements Serializable{
         return this.user;
     }
 
-    public ArrayList<String> getMessages(){
+    public ArrayList<Mensaje> getMessages(){
         return messages;
     }
 
-    public void addMessage(String message){
+    public void addMessage(Mensaje message){
     	this.messages.add(message);
     }
 
