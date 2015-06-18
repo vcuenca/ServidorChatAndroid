@@ -220,7 +220,7 @@ public class ClientThread extends Thread{
 		long numberOfMessages = (Long)items.get(0);
 		
 		
-		List<Object> messages = DataBase.executeQuery("FROM Mensaje WHERE destino = '" + user + "'");
+		List<Object> messages = DataBase.executeQuery("FROM Mensaje WHERE destino = '" + user + "' AND recibido = 0");
 		//rs = Main.executeSelect("SELECT * FROM MENSAJES_ENTREGAR WHERE DESTINATARIO = '" + user + "';");
 		
 		HashMap<String, Conversation> hConversations = new HashMap<String, Conversation>();
