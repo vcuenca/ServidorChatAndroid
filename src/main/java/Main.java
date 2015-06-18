@@ -13,6 +13,5 @@ public class Main {
 		ThreadServidor tServer = new ThreadServidor(Properties.SERVER_PORT);
 		
 		tServer.start();
-		
 	}
 }

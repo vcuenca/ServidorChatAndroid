@@ -9,6 +9,8 @@ public class Mensaje implements Serializable {
 	private String receiver = null;
 	private String message = null;
 	private String fecha = null;
+	private int recibido;
+	private int id;
 
 	static final long serialVersionUID = 42L;
 
@@ -42,5 +44,22 @@ public class Mensaje implements Serializable {
 
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
+	}
+
+	public int getRecibido() {
+		return recibido;
+	}
+
+	public void setRecibido(int recibido) {
+		this.recibido = recibido;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }
