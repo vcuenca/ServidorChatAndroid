@@ -34,12 +34,12 @@ public class ClientThread extends Thread{
 					el servidor le envie todos los mensajes pendientes que tenga
 					para el.*/
 					String user = (String) in.readObject();
-					String password = (String) in.readObject();
+					//String password = (String) in.readObject();
 
-					if (isPasswordCorrect(user, password)) {
-						out.writeObject(new String("OK"));
-						sendConversations(user);
-					}
+					//if (isPasswordCorrect(user, password)) {
+						//out.writeObject(new String("OK"));
+					sendConversations(user);
+					//}
 				}else if (mode == Properties.REGISTER_USER){
 					registerUser();
 				}else if (mode == Properties.NEW_MESSAGE){

@@ -25,5 +25,4 @@ public class Conversation implements Serializable{
     	this.messages.add(message);
     }
 
-
 }

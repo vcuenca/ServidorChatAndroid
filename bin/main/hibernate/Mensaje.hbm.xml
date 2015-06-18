@@ -4,10 +4,14 @@
 <!-- Generated 23-feb-2015 17:37:33 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="main.java.Mensaje" table="mensaje">
-        <id name="from" type="java.lang.String">
-            <column name="origen" />
+        <id name="id" type="int">
+            <column name="id" />
             <generator class="assigned" />
         </id>
+
+        <property name="from" type="java.lang.String">
+            <column name="origen" />
+        </property>
         <property name="receiver" type="java.lang.String">
             <column name="destino" />
         </property>
@@ -16,6 +20,9 @@
         </property>
         <property name="fecha" type="java.lang.String">
             <column name="fecha" />
+        </property>
+        <property name="recibido" type="int">
+            <column name="recibido" />
         </property>
     </class>
 </hibernate-mapping>

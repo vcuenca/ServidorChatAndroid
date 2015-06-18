@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fef4457d-90de-4a44-83bf-b9e6aef02d03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DataBase.java" afterPath="$PROJECT_DIR$/src/main/java/DataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml" afterPath="$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Mensaje.java" afterPath="$PROJECT_DIR$/src/main/java/Mensaje.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/ClientThread.class" afterPath="$PROJECT_DIR$/bin/main/java/ClientThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/DataBase.class" afterPath="$PROJECT_DIR$/bin/main/java/DataBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/Main.class" afterPath="$PROJECT_DIR$/bin/main/java/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/java/Mensaje.class" afterPath="$PROJECT_DIR$/bin/main/java/Mensaje.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ClientThread.java" afterPath="$PROJECT_DIR$/src/main/java/ClientThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Conversation.java" afterPath="$PROJECT_DIR$/src/main/java/Conversation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main/hibernate/Mensaje.hbm.xml" afterPath="$PROJECT_DIR$/bin/main/hibernate/Mensaje.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ServidorChatAndroid.iws" />
@@ -33,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ClientThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="171" column="26" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
+              <caret line="266" column="33" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -62,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5943396">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mensaje.hbm.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mensaje.hbm.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.254717">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
@@ -195,12 +198,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/k3rnel/androidchat/JavaObjects/Conversation.java" />
         <option value="$PROJECT_DIR$/src/main/hibernate/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/hibernate/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Conversation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ClientThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mensaje.java" />
         <option value="$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Conversation.java" />
       </list>
     </option>
   </component>
@@ -246,6 +249,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,8 +329,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -640,7 +643,8 @@
       <workItem from="1434565833986" duration="6163000" />
       <workItem from="1434576045564" duration="272000" />
       <workItem from="1434577053034" duration="624000" />
-      <workItem from="1434617460776" duration="756000" />
+      <workItem from="1434617460776" duration="1601000" />
+      <workItem from="1434619972423" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1434555952180</created>
@@ -660,11 +664,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434577116820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aaaa">
+      <created>1434618449103</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1434618449103</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20599000" />
+    <option name="totallyTimeSpent" value="21812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1177,24 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClientThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="171" column="26" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1240,9 +1232,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/hibernate/Mensaje.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.254717">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="266" column="33" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5943396">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
