@@ -184,7 +184,7 @@ public class ClientThread extends Thread {
 			System.out.println(message.getFecha());
 			DataBase.storeObject(message);
 			// el parametro es el contacto al cual va
-			sendPushNotification("ivan", message);
+			sendPushNotification(message.getReceiver(), message);
 		} catch (ClassNotFoundException cne) {
 			// TODO Auto-generated catch block
 			cne.printStackTrace();
