@@ -178,7 +178,6 @@ public class ClientThread extends Thread {
 		try {
 			Mensaje message = (Mensaje) in.readObject();
 			System.out.println("Mensaje recibido");
-			System.out.println("IDENTIFIC"+message.getId());
 			System.out.println(message.getFrom());
 			System.out.println(message.getReceiver());
 			System.out.println(message.getMessage());
