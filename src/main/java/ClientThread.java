@@ -178,11 +178,17 @@ public class ClientThread extends Thread {
 		try {
 			Mensaje message = (Mensaje) in.readObject();
 			System.out.println("Mensaje recibido");
+			System.out.println("IDENTIFIC"+message.getId());
 			System.out.println(message.getFrom());
 			System.out.println(message.getReceiver());
 			System.out.println(message.getMessage());
 			System.out.println(message.getFecha());
 			DataBase.storeObject(message);
+			
+			int id = (int) DataBase
+					.executeQuery("SELECT id FROM Mensaje WHERE destino = '"
+							+ message.getReceiver() + "' and fecha='"+message.getFecha()+"' and origen='"+message.getFrom()+"' and texto = '"+message.getMessage()+"'").get(0);
+			message.setId(id);
 			// el parametro es el contacto al cual va
 			sendPushNotification(message.getReceiver(), message);
 		} catch (ClassNotFoundException cne) {
